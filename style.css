@@ -9,21 +9,49 @@ img {
     height: 100%;
     object-fit: cover;
     object-position: bottom;
-    padding: 25px;
+    padding: 5px;
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
      border-spacing: 5;
+     background: linear-gradient(to right, red, purple);
 }
 
-nav {
-  background: 
-    linear-gradient(to left right 
-      rgb(255, 0, 0) rgb(146, 50, 50) rgb(90, 0, 0)
-    );
-}
 
 h1{
   font-family: "nobel", sans-serif;
 font-weight: 700;
 font-style: normal;
 align-content: center;
+}
+
+
+li{
+  font-family: "nobel", sans-serif;
+font-weight: 700;
+font-style: normal;
+align-content: center;
+}
+
+div{
+  margin-bottom:10px;
+  align-content: center;
+}
+
+.navbar-image {
+  width: 100px;
+  background: aliceblue;
+}
+
+.logo-image {
+  width: 400px;
+}
+
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #ad0051;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgba(143, 0, 43, 0.9), rgba(255, 0, 43, 0.9));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgba(143, 0, 43, 0.9), rgba(255, 0, 0, 0.9));
 }
