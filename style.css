@@ -21,8 +21,15 @@ h1{
 font-weight: 700;
 font-style: normal;
 align-content: center;
+margin: 50px;
+padding-bottom: 50px;
 }
 
+p{
+  font-family: "agenda", sans-serif;
+font-weight: 600;
+font-style: normal;
+}
 
 li{
   font-family: "nobel", sans-serif;
@@ -38,7 +45,6 @@ div{
 
 .navbar-image {
   width: 100px;
-  background: aliceblue;
 }
 
 .logo-image {
